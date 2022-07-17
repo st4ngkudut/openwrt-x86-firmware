@@ -24,3 +24,6 @@ echo '### Argon Theme Config ###'
 
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 echo '### Shutdown Router ###'
+
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+echo '### OpenAppFilter ###'
