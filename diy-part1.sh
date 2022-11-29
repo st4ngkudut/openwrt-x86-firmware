@@ -32,3 +32,9 @@ echo '### Shutdown Router ###'
 
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 echo '### OpenAppFilter ###'
+
+git clone https://github.com/rufengsuixing/luci-app-adguardhome
+echo '### luci-app-adguardhome ###'
+
+git clone https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+echo '### luci-app-smartdns ###'
