@@ -23,20 +23,3 @@ echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.
 
 # echo "src-git oui https://github.com/zhaojh329/oui.git" >>feeds.conf.default
 
-
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
-echo '### Argon Theme Config ###'
-
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-echo '### Shutdown Router ###'
-
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-poweroff
-echo '### luci-app-adguardhome ###'
-
-git clone https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
-echo '### luci-app-smartdns ###'
-
-# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-echo '### OpenAppFilter ###'
-
-
