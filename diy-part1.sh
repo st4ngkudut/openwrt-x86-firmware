@@ -30,11 +30,13 @@ echo '### Argon Theme Config ###'
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 echo '### Shutdown Router ###'
 
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-echo '### OpenAppFilter ###'
-
-git clone https://github.com/rufengsuixing/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-poweroff
 echo '### luci-app-adguardhome ###'
 
 git clone https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 echo '### luci-app-smartdns ###'
+
+# git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+echo '### OpenAppFilter ###'
+
+
