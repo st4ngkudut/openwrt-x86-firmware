@@ -29,7 +29,7 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luc
 echo '### luci-app-adguardhome ###'
 
 # luci-app-smartdns plug-in components #
-git clone https://github.com/pymumu/luci-app-smartdns package/lean/luci-app-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns package/lean/luci-app-smartdns
 echo '### luci-app-smartdns ###'
 
 # OpenAppFilter plug-in components #
