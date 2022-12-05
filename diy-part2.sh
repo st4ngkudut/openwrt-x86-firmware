@@ -34,12 +34,12 @@ echo '### luci-app-smartdns ###'
 
 # OpenAppFilter plug-in components #
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-echo '### OpenAppFilter ###'
+# echo '### OpenAppFilter ###'
 
 
 # Shutdown plug-in components #
 # git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-echo '### Shutdown Router ###'
+# echo '### Shutdown Router ###'
 
 
 
