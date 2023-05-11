@@ -24,7 +24,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/lu
 echo '### Argon Theme Config ###'
 
 # luci-app-adguardhome plug-in components #
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-adguardhome
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-adguardhome
 echo '### luci-app-adguardhome ###'
 
 # luci-app-smartdns plug-in components #
@@ -36,8 +36,8 @@ echo '### luci-app-smartdns ###'
 # echo '### OpenAppFilter ###'
 
 # Shutdown plug-in components #
-# git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-# echo '### Shutdown Router ###'
+git clone https://github.com/ZHOUJUNX/luci-app-poweroff.git
+echo '### Shutdown Router ###'
 
 
 
