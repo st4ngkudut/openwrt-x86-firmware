@@ -8,7 +8,7 @@
 - 添加 jerrykuku luci-app-argon-config
 - 添加 pymumu luci-app-smartdns
 - 添加 fw876 luci-app-ssr-plus
-- 包含 ChinaDNS-NG/Hysteria/NaiveProxy/Shadowsocks Simply Obfs Plugin/ShadowsockR Libev Client
+- 包含 ChinaDNS-NG / Hysteria/NaiveProxy / Shadowsocks Simply Obfs Plugin / ShadowsockR Libev Client
 
 ## Usage
 
