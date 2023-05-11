@@ -1,6 +1,5 @@
 ## 基于 Lean's OpenWRT
 
-- 基于 Lean LEDE 编译
 - 修改 Kernel partition size 512 MiB
 - 修改 Root filesystem partition size 2048 MiB
 - 添加 eSIR luci-app-poweroff
