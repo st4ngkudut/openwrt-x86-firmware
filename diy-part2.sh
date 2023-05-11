@@ -36,7 +36,7 @@ echo '### luci-app-smartdns ###'
 # echo '### OpenAppFilter ###'
 
 # Shutdown plug-in components #
-git clone https://github.com/ZHOUJUNX/luci-app-poweroff.git
+git clone https://github.com/ZHOUJUNX/luci-app-poweroff.git package/lean/luci-app-poweroff
 echo '### Shutdown Router ###'
 
 
