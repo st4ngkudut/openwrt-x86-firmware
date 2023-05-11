@@ -1,12 +1,14 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+# 基于 Lean's OpenWRT
 
-# Actions-OpenWrt
-
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
-
-A template for building OpenWrt with GitHub Actions
+- 基于 Lean LEDE 编译
+- 修改 Kernel partition size 512 MiB
+- 修改 Root filesystem partition size 2048 MiB
+- 添加 eSIR luci-app-poweroff
+- 添加 jerrykuku luci-theme-argon.git
+- 添加 jerrykuku luci-app-argon-config
+- 添加 pymumu luci-app-smartdns
+- 添加 fw876 luci-app-ssr-plus
+- 包含 ChinaDNS-NG/Hysteria/NaiveProxy/Shadowsocks Simply Obfs Plugin/ShadowsockR Libev Client
 
 ## Usage
 
