@@ -16,7 +16,7 @@ echo '### Updates default IP gate ###'
 
 # Modify Distrib Revision #
 sed -i 's/R23.8.23/release version/g' package/lean/default-settings/files/zzz-default-settings
-echo "### Update default Disrtib Revision ###'
+echo '### Update default Disrtib Revision ###'
 
 # argon theme plug-in components #
 rm -rf package/feeds/luci/luci-theme-argon
