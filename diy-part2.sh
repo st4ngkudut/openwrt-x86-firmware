@@ -14,10 +14,6 @@
 sed -i 's/192.168.1.1/172.16.253.254/g' package/base-files/files/bin/config_generate
 echo '### Updates default IP gate ###'
 
-# Modify Distrib Revision #
-sed -i 's/R23.8.23/release version/g' package/lean/default-settings/files/zzz-default-settings
-echo '### Update default Disrtib Revision ###'
-
 # argon theme plug-in components #
 rm -rf package/feeds/luci/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/feeds/luci/luci-theme-argon
