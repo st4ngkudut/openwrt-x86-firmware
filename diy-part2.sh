@@ -39,3 +39,6 @@ echo '### Shutdown Router ###'
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 echo '### luci-app-oaf ###'
 
+# lucky plug-in components #
+git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+echo '### luci-app-lucky ###'
