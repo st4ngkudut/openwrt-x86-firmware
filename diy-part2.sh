@@ -40,5 +40,5 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 echo '### luci-app-oaf ###'
 
 # lucky plug-in components #
-git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone  https://github.com/gdy666/luci-app-lucky.git package/lean
 echo '### luci-app-lucky ###'
