@@ -20,7 +20,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/fee
 echo '### luci-theme-argon ###'
 
 # argon config plug-in components #
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 echo '### luci-app-argon-config ###'
 
 # adguardhome plug-in components #
@@ -28,7 +28,7 @@ echo '### luci-app-argon-config ###'
 echo '### luci-app-adguardhome ###'
 
 # smartdns plug-in components #
-git clone -b lede https://github.com/pymumu/luci-app-smartdns package/lean/luci-app-smartdns
+# git clone -b lede https://github.com/pymumu/luci-app-smartdns package/lean/luci-app-smartdns
 echo '### luci-app-smartdns ###'
 
 # shutdown plug-in components #
@@ -36,9 +36,9 @@ git clone https://github.com/ZHOUJUNX/luci-app-poweroff.git package/lean/luci-ap
 echo '### Shutdown Router ###'
 
 # openappfilter plug-in components #
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+# git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 echo '### luci-app-oaf ###'
 
 # lucky plug-in components #
-git clone  https://github.com/gdy666/luci-app-lucky.git package/lean
+# git clone  https://github.com/gdy666/luci-app-lucky.git package/lean
 echo '### luci-app-lucky ###'
