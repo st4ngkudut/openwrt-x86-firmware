@@ -17,6 +17,19 @@
 sed -i "/helloworld/d" "feeds.conf.default"
 echo 'src-git helloworld https://github.com/fw876/helloworld.git;main' >>feeds.conf.default
 
+# passwallpackages
+sed -i "/passwallpackages/d" "feedfeeds.conf.default"
+echo 'src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall-packages.git' >>feeds.conf.default
+
+# passwall
+sed -i "/passwall/d" "feedfeeds.conf.default"
+echo 'src-git passwall src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
+
+# passwall
+sed -i "/passwall2/d" "feedfeeds.conf.default"
+echo 'src-git passwall2 src-git passwall https://github.com/xiaorouji/openwrt-passwall2.git' >>feeds.conf.default
+
+
 # passwall
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 # echo 'src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
